@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--fasta_paths",
+        "/home/dengarden/Dropbox/삼성과제-machine guided protein design/ML/AlphaFoldPrediction/dREC3+REC3.fasta, /home/dengarden/Dropbox/삼성과제-machine guided protein design/ML/AlphaFoldPrediction/dREC3+REC3NLSX.fasta",
+        "--model_preset",
+        "multimer",
+        "--data_dir",
+        "/mnt/md0/alphafold_DB/",
+        "--max_template_date",
+        "2021-11-01",
+        "--output_dir",
+        "/home/dengarden/Dropbox/삼성과제-machine guided protein design/ML/AlphaFoldPrediction/"
+      ]
+    }
+  ]
+}
